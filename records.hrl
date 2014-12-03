@@ -1,0 +1,4 @@
+-record(item, {name, description, quantity, effect, magnitude}).
+-record(character, {class, description, life, dexterity, force, magic}).
+-record(monster, {name, description, life, force}).
+-record(map, {position, description, monsters = [#monster{}], items = [#item{}], paths}).

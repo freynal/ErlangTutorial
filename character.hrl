@@ -1,0 +1,1 @@
+-record(character, {class, description, life, dexterity, force, magic}).

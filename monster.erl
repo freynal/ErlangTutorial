@@ -1,0 +1,3 @@
+-module(monster).
+-include("records.hrl").
+-export([]).
